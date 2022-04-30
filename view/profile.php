@@ -52,7 +52,7 @@ $divorced = "checked";
 }elseif ($userRow['patientMaritialStatus']=='widowed') {
 $widowed = "checked";
 }
-?>
+?> 
 <!DOCTYPE html>
 <html lang="en">
 	<head>

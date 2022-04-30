@@ -25,6 +25,7 @@ class User{
          $this->patientPhone=$pPhone;
          $this->patientEmail=$pEmail;
 
+         
      }
 
      public function login($ic,$pass)

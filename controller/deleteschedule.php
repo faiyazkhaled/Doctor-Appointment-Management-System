@@ -12,6 +12,5 @@ $delete = mysqli_query($con,"DELETE FROM doctorschedule WHERE scheduleId=$id");
 // }
 
 
-
 ?>
 

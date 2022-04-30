@@ -12,6 +12,5 @@ $delete = mysqli_query($con,"DELETE FROM patient WHERE icPatient=$icPatient");
 // }
 
 
-
 ?>
 

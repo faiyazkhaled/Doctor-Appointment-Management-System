@@ -8,6 +8,7 @@ if (isset($_GET['scheduleDate']) && isset($_GET['appid'])) {
 	$appdate =$_GET['scheduleDate'];
 	$appid = $_GET['appid'];
 }
+
 // on b.icPatient = a.icPatient
 $res = mysqli_query($con,"SELECT a.*, b.* FROM doctorschedule a INNER JOIN patient b
 WHERE a.scheduleDate='$appdate' AND scheduleId=$appid AND b.icPatient=$session");

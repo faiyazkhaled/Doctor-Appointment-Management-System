@@ -3,9 +3,6 @@ include_once '../controller/assets/conn/dbconnect.php';
 // include_once 'assets/conn/server.php';
 ?>
 
-
-<!-- login -->
-<!-- check session -->
 <?php
 session_start();
 // session_destroy();
@@ -104,7 +101,7 @@ alert('User already registered. Please try again');
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span> 
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     </button>
@@ -119,7 +116,7 @@ alert('User already registered. Please try again');
 
                         <!-- <li><a href="../controller/adminlogin.php">Admin</a></li> -->
                         <li><a href="#" data-toggle="modal" data-target="#myModal">Sign Up</a></li>
-                   
+                    
                         <li>
                             <p class="navbar-text">Already have an account?</p>
                         </li>

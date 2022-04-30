@@ -4,7 +4,7 @@ include_once 'assets/conn/dbconnect.php';
 session_start();
 if (isset($_SESSION['doctorSession']) != "") {
 header("Location: ../view/doctordashboard.php");
-}
+} 
 if (isset($_POST['login']))
 {
 $doctorId = mysqli_real_escape_string($con,$_POST['doctorId']);

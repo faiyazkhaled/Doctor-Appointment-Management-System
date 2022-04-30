@@ -13,6 +13,7 @@ $res=mysqli_query($con, "SELECT a.*, b.*,c.* FROM patient a
 	}
 	$userRow=mysqli_fetch_array($res);
 ?>
+
 <!DOCTYPE html>
 <html>
 	<head>

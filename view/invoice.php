@@ -10,7 +10,7 @@ On a.icPatient = b.patientIc
 JOIN doctorschedule c
 On b.scheduleId=c.scheduleId
 WHERE b.appId  =".$appid);
-
+ 
 $userRow=mysqli_fetch_array($res,MYSQLI_ASSOC);
 ?>
 <!doctype html>

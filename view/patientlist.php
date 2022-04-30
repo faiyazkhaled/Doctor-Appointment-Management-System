@@ -13,7 +13,6 @@ $userRow=mysqli_fetch_array($res,MYSQLI_ASSOC);
 
 
 
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
